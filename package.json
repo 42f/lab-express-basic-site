@@ -1,0 +1,27 @@
+{
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "npx nodemon app.js & npx livereload -p 35729 -w 500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42f/lab-express-basic-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/42f/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/42f/lab-express-basic-site#readme",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "livereload": "^0.9.3"
+  }
+}

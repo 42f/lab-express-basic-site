@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{page_title}}</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>{{page_title}}</h1>
+
+		{{#if img_url}}
+    <div class="photos-container">
+      {{#each img_url}}
+        <img src="{{this.url}}" alt="{{this.alt}}" />
+      {{/each}}
+    </div>
+		{{/if}}
+
+    <footer>
+      <a id="back-home-btn" href="/">Home</a>
+    </footer>
+
+  </body>
+</html>
